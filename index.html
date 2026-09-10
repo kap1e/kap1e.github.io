@@ -1,108 +1,39 @@
 <!doctype html>
-
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Фетюков Никита</title>
-    <meta name="description" content="Портфолио Фетюкова Никиты" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;800&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Никита Фетюков</title>
+    <meta name="description" content="Контакты, резюме и проекты Никиты Фетюкова.">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="stars"></div>
-    <header>
-        <div class="brand">
-            <div class="brand-title">Никита Фетюков</div>
-        </div>
-        <div class="marquee" aria-hidden="true">
-            <div>✨ Привет! Меня зовут Никита, Python • JS (React ❤) • C++• Санкт‑Петербург • ВШЭ СПб — олимпиадный бэкграунд, анализ данных, проекты и съёмки. Следите за новостями про нашего AI‑гида: @itter_ru ✨&nbsp; &nbsp; &nbsp; ✨ Привет! Меня зовут Никита,
-                Python • JS (React ❤) • C++• Санкт‑Петербург • ВШЭ СПб — олимпиадный бэкграунд, анализ данных, проекты и съёмки. Следите за новостями про нашего AI‑гида: @itter_ru ✨</div>
-        </div>
-    </header>
+    <main class="page">
+        <img class="gif" src="images/hi.gif" alt="Приветствие">
 
-    <main>
-        <section class="hero">
-            <div class="photo" id="photoFrame" aria-label="Фото профиля"><img id="profilePhoto" src="images/main.jpeg" alt="Фото профиля Никиты" />
-            </div>
-            <div>
-                <h1>Фетюков Никита, 18 лет / Санкт‑Петербург</h1>
-                <p class="sub">Студент ВШЭ СПб — Прикладная математика и информатика</p>
-                <div class="badges"><span class="badge">Python</span><span class="badge">JavaScript / React ❤</span><span class="badge">C++</span><span class="badge">Олимпиады · Анализ данных</span></div>
-            </div>
-        </section>
-        <section class="about">
-            <h2>Обо мне</h2>
-            <p>Вырос в Архангельске на севере страны. Начал программировать с 4 класса, прошёл отбор в «Сириус» и позже поступил в лучший лицей региона. Занимался олимпиадным программированием и математикой, выиграл олимпиаду по анализу данных и поступил
-                в ВШЭ СПб.</p>
-            <ul>
-                <li>По необходимости снимал подкасты и концерты</li>
-                <li>Разрабатывал платформы на заказ</li>
-                <li>Могу собрать беспилотник буквально из подручных материалов :)</li>
-                <li>Сейчас с ребятами делаем крутого AI‑гида в смартфоне — <a href="https://t.me/itter_ru" target="_blank" rel="noopener" style="color:var(--accent1); text-decoration:underline;">@itter_ru</a></li>
-            </ul>
-        </section>
-        <section class="skills">
-            <h2>Навыки</h2>
-            <div class="grid cols-3">
-                <div class="card">
-                    <h3>Языки и стек</h3>
-                    <p><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">C++</span></p>
-                </div>
-                <div class="card">
-                    <h3>Инженерия</h3>
-                    <p><span class="chip">Алгоритмы</span><span class="chip">Олимпиадное программирование</span><span class="chip">Анализ данных</span></p>
-                </div>
-                <div class="card">
-                    <h3>Медиа</h3>
-                    <p><span class="chip">Съёмка подкастов</span><span class="chip">Съёмка концертов</span><span class="chip">Пет‑проекты</span></p>
-                </div>
-            </div>
-        </section>
-        <section class="achievements">
-            <h2>Достижения</h2>
-            <ul>
-                <li>Призёр Национальной олимпиады по анализу данных</li>
-                <li>Дважды победитель регионального этапа по информационной безопасности</li>
-                <li>Призёр «Высшей пробы» по английскому языку</li>
-                <li>Дважды участник Январской программы по математике в «Сириусе», обе закончил на 4 :(</li>
-                <li>Выпускник «Яндекс Лицея» ’24</li>
-                <li>6 лвл фейсита, 1280 эло </li>
-                <li>Медаль за выслугу 8 лет в Клеш Рояле</li>
-                <li>5 место в школе по русскому медвежонку в 5 классе</li>
-            </ul>
+        <section class="intro" aria-label="Обо мне">
+            <h1>Привет!</h1>
+            <p>
+                Меня зовут Никита, я студент Вышки на ПМИ. Посмотреть мои проекты и резюме можно по ссылкам ниже, а также связаться со мной через контакты:
+            </p>
         </section>
 
+        <nav class="links" aria-label="Ссылки">
+            <a href="images/CV_Fetyukov.pdf" target="_blank" rel="noopener noreferrer">Резюме</a>
+            <a href="https://github.com/kap1e" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
 
-        <section class="contacts">
-            <h2>Контакты</h2>
-            <p class="muted">Пишите в удобном мессенджере — всем отвечу)</p>
-            <div class="icons" aria-label="Иконки ссылок на контакты">
-                <a class="icon-btn" href="https://t.me/kap1e" target="_blank" rel="noopener" aria-label="Telegram">
-                    <!-- Telegram SVG --><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22 2L2.6 9.1c-.9.35-.86 1.66.06 1.94l5.08 1.58 2 6.32c.27.86 1.37 1.1 1.95.4l2.78-3.35 5.04 3.71c.77.57 1.88.14 2.1-.79L24 3.4C24 2.47 22.98 1.75 22 2Z" fill="#29A9EA"/></svg></a>
-                <a class="icon-btn" href="https://vk.com/kap1e" target="_blank" rel="noopener" aria-label="VK">
-                    <!-- VK SVG --><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#4C75A3" d="M12.69 18c-6.1 0-9.6-4.19-9.69-11.2h3.07c.05 5.15 2.35 7.35 4.11 7.79V6.8h2.94v4.45c1.73-.19 3.54-2.28 4.15-4.45h2.86c-.47 2.67-2.45 4.76-3.84 5.56 1.39.64 3.66 2.42 4.51 5.64h-3.27c-.67-2.1-2.36-3.73-4.41-3.94v3.94h-.43Z"/></svg></a>
-                <a class="icon-btn" href="mailto:nikfet24@gmail.com" aria-label="Email">
-                    <!-- Mail SVG --><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#eae9ff" d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2.7-.5 7.8 5.2L20.3 6H4.7ZM20 8.1l-7.1 4.7a1.5 1.5 0 0 1-1.7 0L4 8.1V17c0 .28.22.5.5.5h15c.28 0 .5-.22.5-.5V8.1Z"/></svg></a>
-            </div>
-        </section>
-        <footer>© 2025 · Фетюков Никита · Сделано с любовью к React и котогифкам </footer>
+        <address class="contacts">
+            <a href="https://t.me/kap1e" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a href="https://vk.com/kap1e" target="_blank" rel="noopener noreferrer">VK</a>
+            <a href="mailto:nikfet24@gmail.com">Почта</a>
+        </address>
+
+        <p class="goodbye">адиос амигос!</p>
+        <img class="gif gif--bye" src="images/bye.gif" alt="Прощание">
     </main>
-    <img class="sticker-cat" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Кот" /><img class="nyan" src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif" alt="Летающий кот" />
-    <script>
-        [...document.querySelectorAll('img')].forEach(tag => {
-                tag.addEventListener('error', () => {
-                    tag.removeAttribute('srcset');
-                    tag.src = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="200" height="160"><rect width="100%" height="100%" fill="%230b0f17"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%23e6f3ff" font-family="Arial" font-size="14">изображение недоступно</text></svg>');
-                });
-            }
-
-        );
-    </script>
 </body>
 
 </html>
